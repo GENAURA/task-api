@@ -64,7 +64,47 @@ Content-Type: application/json
 - Unknown task → `404`.
 - Existing assignment → `409`.
 
-## Test strategy
+## Test Results
+
+All automated tests are passing successfully.
+
+### Jest Test Summary
+
+```text
+Test Suites: 2 passed, 2 total
+Tests:       59 passed, 59 total
+Snapshots:   0 total
+Time:        0.481 s
+```
+
+### Coverage Summary
+
+```text
+File            % Stmts   % Branch   % Funcs   % Lines
+-------------------------------------------------------
+All files        95.27     91.89      100       96.32
+app.js           94.11     90         100       93.61
+taskService.js   95.87     92.07      100       97.75
+```
+
+The project exceeds the required **80%+ global coverage** across statements, branches, functions, and lines.
+
+### Test Execution Screenshot
+
+The following screenshots show the actual test and coverage output from the local development environment.
+
+#### All Tests Passing
+
+![Jest Test Results](screenshots/test-results.png)
+
+**Result:** 59/59 tests passing across 2 test suites.
+
+#### Coverage Report
+
+![Jest Coverage Report](screenshots/coverage-results.png)
+
+**Result:** 95.27% statements, 91.89% branches, 100% functions, and 96.32% lines.
+
 
 ### Unit tests
 
